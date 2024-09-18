@@ -1,0 +1,29 @@
+A-) 
+Logica de numeros ímpares.
+
+Resposta: 9
+
+B-)
+Logica de progressão geométrica
+
+Resposta: 128
+
+C-) 
+Logica de quadrado do índice (0², 1², 2², ...)
+
+Resposta: 49 (7²)
+
+D-)
+Logica do quadrado perfeito (2², 4², 6², ...)
+
+Resposta: 100(10²)
+
+E-)
+Sequencia de fibonacci
+
+Resposta: 13
+
+F-)
+Não identifiquei
+
+Resposta: vi uma certa proximidade entre os primeiros numeros e após o numero 16, so vimos o acrescimo de 1 a cada numero, então a resposta é 20

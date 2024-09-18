@@ -1,0 +1,11 @@
+**CHARADA DAS LAMPADAS**
+
+**Processo de verificação:**
+
+Ligaria a primeiro interruptor e aguardaria 1 minuto, apos o tempo, desligaria o interruptor, depois ligaria o segundo interruptor, e deixaria o ultimo interruptor desligado.
+
+**Primeira ida:**
+
+Iria até a primeira sala, se a lampada estivesse deligada, verificaria sua temperatura se quente, saberia que o primeiro interruptor é desta lampada, se fria, saberia que o interruptor desta lampada é o Terceiro.
+Iria até a segunda sala e aplicaria o mesmo teste, se estivesse acesa, saberia que é o segundo interruptor, se estivesse apagada, iria pela temperatura novamente.
+Desta forma, se a lampada da primeira sala esta quente e da segunda esta acesa, temos que o primeiro interruptor é da primeira sala, o segundo interruptor é da segunda sala e o terceiro interruptor é da sala dos interruptores.

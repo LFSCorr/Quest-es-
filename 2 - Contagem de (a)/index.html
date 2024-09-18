@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Letra 'a'</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+    <script>
+        // Função para verificar e contar a letra 'a'
+        function countLetterA(inputString) {
+            // Converter a string para minúsculas para facilitar a contagem
+            const lowerCaseString = inputString.toLowerCase();
+
+            // Contar o número de ocorrências da letra 'a'
+            const count = lowerCaseString.split('a').length - 1;
+
+            // Exibir o resultado na página
+            document.getElementById('result').textContent = `A letra 'a' aparece ${count} vez(es) na string.`;
+        }
+
+        // Função para lidar com a entrada do usuário
+        function checkUserInput() {
+            const userInput = prompt("Digite uma string para verificar a quantidade de letras 'a':");
+            if (userInput !== null) {
+                countLetterA(userInput);
+            } else {
+                document.getElementById('result').textContent = "Nenhuma entrada fornecida.";
+            }
+        }
+
+        // Função para verificar a string pré-definida
+        function checkPredefinedString() {
+            const predefinedString = "Aqui está um exemplo de string com algumas letras 'a' para contar.";
+            countLetterA(predefinedString);
+        }
+
+        // Escolha qual função executar
+        window.onload = checkUserInput; // Descomente para usar a entrada do usuário
+        // window.onload = checkPredefinedString; // Descomente para usar a string pré-definida
+    </script>
+</head>
+<body>
+    <h1>Contador de Letra 'a'</h1>
+    <p>Aguarde o resultado abaixo.</p>
+    <div id="result"></div> <!-- Área onde o resultado será exibido -->
+</body>
+</html>
